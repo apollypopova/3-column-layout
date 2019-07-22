@@ -1,0 +1,30 @@
+body {
+    color: dimgray;
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(230, 230, 230);
+    font-family: 'Open Sans', sans-serif;
+}
+header, footer {
+    border: 2px solid rgb(230, 230, 230);
+    margin: 4px;
+    padding-left: 10px;
+    padding-bottom: 12px;
+}
+.columns {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.column {
+    flex-grow: 1;
+    width: 33.33%;
+    border: 2px solid rgb(230, 230, 230);    
+    padding: 10px;
+}
+
+.first, .third {
+    background-color:whitesmoke;
+    margin: 0px 4px 4px;
+}
